@@ -8,5 +8,8 @@ buttonElement.addEventListener('click', function () {
     var num1 = num1Element.value;
     var num2 = num2Element.value;
     var result = add(+num1, +num2);
+    var stringResult = add(num1, num2);
     console.log(result);
+    console.log(stringResult);
+    console.log(add(true, false));
 });
